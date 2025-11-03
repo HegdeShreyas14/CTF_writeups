@@ -267,7 +267,7 @@ Chúc em hạnh phúc (Chúc em hạnh phúc)</pre>
 ### Flag:
 `v1t{dcuk_com}`
   ## 16th Duck
-  - Searched the medallion on google images, found the name and address of the Russian unit. Reverse searched the unit name in an AI chatbot which returned the website `https://covertaccessteam.substack.com/p/reading-the-badges-how-osint-mapped?`
+  - Searched the medallion on google images, found the name and address of the Russian unit. Reverse searched the unit name and searched through websites to get to final flag, the link of the website is given below `https://covertaccessteam.substack.com/p/reading-the-badges-how-osint-mapped?`
   ![alt text](images/location.jpeg)
   ### Flag:
   `v1t{55.592169,37.689097}`
@@ -288,15 +288,17 @@ Chúc em hạnh phúc (Chúc em hạnh phúc)</pre>
 
 # Reverse Engineering
  ## Snail Delivery
-   - Used Ghidra to decompile the file, found the underlying C code
-   - Detected the main() function in the code and ran the code to obtain the encrypted flag.
+   - 
+   
    -Decrypted the flag using online decryption tool
 
  ### Flag:
 `v1t{sn4il_d3l1v3ry_sl0w_4f_36420762ab}`
 
  ## Optimus
-   - Same process as snail delivery
+   - Used ghidra to decompile the code, found a encoded text in the code `0ov13tc{9zxpdr6na13m6a73534th5a}`
+   - The script in the question gets the length of string and finds the number of primes in the range from start to end of length of the string.
+   - Asks the user to input the flag and checks if the length of flag equals number of primes found in the above said function.
 ### Flag:
  `v1t{pr1m35}`
  
@@ -344,7 +346,8 @@ plaintext  = v1t{Pseud0_R4nd0m_G3ner4t0r
 `v1t{Pseud0_R4nd0m_G3ner4t0r_1s_n0t_th4t_h4rd}`
 
 ## Shamir's Duck 
-- 
+- The question based off of Shamir's Secret Sharing
+-
 
 
 ### Flag:
