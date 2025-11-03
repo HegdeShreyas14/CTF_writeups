@@ -56,9 +56,9 @@
     `v1t{H1D30UT_CSS}`
   
   ## Mark The Lyrics
-    -Opened the source and found the contents of flag in the `<mark>..</mark>` tag. Had to manually piece together each part.
+    - Opened the source and found the contents of flag in the `<mark>..</mark>` tag. Had to manually piece together each part.
     -In the website the flag contents were slightly darkened but too hard to manually detect each component.
-
+v1t{h1d3out_css}
 
 ```html
 
@@ -250,3 +250,29 @@ Chúc em hạnh phúc (Chúc em hạnh phúc)</pre>
   ### Flag:
      `v1t{t1ny_ico}`   
 
+
+
+# Osint
+
+  ## Amongus
+   - Convert name of the university in English and the first letter of the words form the flag.
+![alt text](images/amongus.png)
+  ### Flag:
+     `v1t{UIT}`
+ 
+  ## Duck Company
+  - Reverse search the image , leads to the website selling the product. 
+  ### Flag:
+    `v1t{dcuk_com}`
+  ## 16th Duck
+  - Searched the medallion on google images, found the name and address of the Russian unit. Reverse searched the unit name in an AI chatbot which returned the website `https://covertaccessteam.substack.com/p/reading-the-badges-how-osint-mapped?`
+  ![alt text](images/location.jpeg)
+  ### Flag:
+  `v1t{55.592169,37.689097}`
+
+  ## Dusk Till Duck 
+  - Used tineye to reverse search the image, found the image uploaded by a certain someone named Jay Thaker who captioned it to be taken on river Thames
+  - The image content said `London ON Canada` , searched for lake parks along the river in Ontario Canada and found the park.
+  - Wasted a lot of time looking at the wrong Thames river( the one in UK).
+  ### Flag:
+  `v1t{Ivey_Park}`
