@@ -1,3 +1,41 @@
 # v1tCTF writeups
 
+![alt text](images/image.png)
 
+## Index / Table of contents
+
+- [v1tCTF writeups](#v1tctf-writeups)
+- [Web](#web-challs)
+  - [Login page](#login-page)
+  - [Stylish Flag](#stylish-flag)
+  - [Mark the lyrics](#mark-the-lyrics)  
+  - [Tiny Flag](#tiny-flag)
+- [Osint](#osint)
+  - [Amongus](#amongus)
+  - [Duck company](#duck-company)
+  - [16th_Duck](#16 Duck)
+  - [Dusk till Duck](#dusk-till-duck)  
+- [Reverse Engineering](#reverse-engineering)
+  - [Snail_Delivery](#Snail_Delivery)
+  - [Optimus](#Optimus)
+  - [Python Obf](#py-obf)
+  - [Bad_Reverser](#Bad-Reverser)
+- [Crypto](#crypto)
+  - [modulo Mystery](#modulo)
+  - [random stuff](#random-stuff)
+    - [part 2](#part-2)
+    - [part 1](#part-1)
+  - [shamir's secret](#shmairs-secret)
+  - [whitespace](#whitspace)
+  - [Misconfigured RSA](#misconfig_rsa)
+
+- [Misc](#misc)
+  - [Talking Duck](#Talking_Duck)
+  - [emoji thief](#emoji-message)
+  - [blank](#blank)
+
+- [pwn](#pwn)
+  - [Waddler](#waddler)
+- [Duck]
+  - [Rules flag](#rules-flag)
+  - [Duck robots](#duck-robots)
