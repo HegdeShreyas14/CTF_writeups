@@ -13,7 +13,7 @@
 - [Osint](#osint)
   - [Amongus](#amongus)
   - [Duck company](#duck-company)
-  - [16th_Duck](#16 Duck)
+  - [16th_Duck]( #16_Duck)
   - [Dusk till Duck](#dusk-till-duck)  
 - [Reverse Engineering](#reverse-engineering)
   - [Snail_Delivery](#Snail_Delivery)
@@ -36,6 +36,6 @@
 
 - [pwn](#pwn)
   - [Waddler](#waddler)
-- [Duck]
+- [Duck](#duck)
   - [Rules flag](#rules-flag)
   - [Duck robots](#duck-robots)
