@@ -174,7 +174,8 @@ _ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[
 # Crypto
 
 ## Modulo Mystery
-- Brute forced all possible numbers from 1 to 100 then manually verified which resembles the flag format.
+- The encryption function and the encrypted flag value was given in the question
+- Generated the decryption code and brute forced all possible numbers from 1 to 100 then manually verified which resembles the flag format.
 - Given below the values in the encoded flag file.
 ```py
 enc = [16, 49, 14, 21, 7, 48, 49, 15, 6, 48, 44, 10, 12, 49, 20, 0, 23]
@@ -183,7 +184,7 @@ enc = [16, 49, 14, 21, 7, 48, 49, 15, 6, 48, 44, 10, 12, 49, 20, 0, 23]
 `v1t{m0dul0_pr1z3}`
 
 ## RandomStuff
-- In the 2 part python file provided, went through the first file and analysed the encryption used, found the script which decrypts the code to return plaintext.
+- In the 2 part python file provided, went through the first file and checked the encryption used, found the script which decrypts the code to return plaintext.
 - The part one code returned 
 ```py
  key  = 2fa0d015c47e269e94242cb920522c7a215000c80901394d11188d49856607e9
@@ -215,7 +216,7 @@ plaintext  = v1t{Pseud0_R4nd0m_G3ner4t0r
  - Checked if n is p*q on factordb, got to know that n is prime
  - The totient function becomes (n-1) and The private exponent d is just the modular inverse of e modulo n-1:
 d ≡ e⁻¹ (mod n-1)
-- Computed  m=c^d mod n to recover plaintext by converting it to bytes and reading it
+- Compute  m=c^d mod n to recover plaintext by then converting it to bytes and reading it
 
 ### Flag:
 `v1t{f3rm4t_l1ttl3_duck}`
