@@ -111,7 +111,7 @@
   `v1t{Ivey_Park}`
 
   ## Forgotten Inventory
-  - Searched for Iraq-US related csv 
+  - Searched for Iraq-US,2007,Operation Freedom related csv 
   - Found a description matching csv on wikileaks by asking AI to shortlist the files
   - Found the mail ID
  ### Flag:
@@ -119,17 +119,35 @@
 
 # Reverse Engineering
  ## Snail Delivery
-   - 
+   - On decompiling the given file using ghidra, looked at the code and found that there was a while loop running which performed XOR checking against a ciphertext which is already present 
+   - The ciphertext was in an array stored in local_178.In the while loop there was a 6 byte rotating validation key used which can be found out from the locations mentioned in the loop which was from *0x27*, we can figure that it is 6 byte as the operation performed was `%6`.
+   ```
+    while( true ) {
+       sVar3 = strlen((char *)(local_178 + 0x30));
+       if (sVar3 <= local_30) break;
+       if (((int)(char)local_178[local_30 + 0x30] ^ (uint)local_178 [local_30 % 6 + 0x27]) !=(uint)local_178[local_30]) {
+                   local_24 = 0;
+                   break;
+                  }
+                  local_30 = local_30 + 1;
+              }
+  ```
+   - This validation checks if entered text is valid and then returns the generated flag in a different memory location
    
-   -Decrypted the flag using online decryption tool
-
+   - Similarly there was a `for` loop above generating the flag which used a 3 byte key starting from location *0x2d*.The flag was XORed with this key , so to get the final flag we had to do the reverse of it.
+  ```
+   for (local_20 = 0; local_20 < local_38; local_20 = local_20 +  1) {
+     *(byte *)(local_20 + (long)local_40) =
+     local_178[local_20 + 0x30] ^ local_178[local_20 % 3 + 0x2d];
+              }
+  ```
  ### Flag:
 `v1t{sn4il_d3l1v3ry_sl0w_4f_36420762ab}`
 
  ## Optimus
    - Used ghidra to decompile the code, found a encoded text in the code `0ov13tc{9zxpdr6na13m6a73534th5a}`
-   - The script in the question gets the length of string and finds the number of primes in the range from start to end of length of the string.
-   - Asks the user to input the flag and checks if the length of flag equals number of primes found in the above said function.
+   - The script in the question gets the length of string and finds the number of prime indices in the range from start to end of length of the string.
+   - Asks the user to input the flag and checks if the length of flag is equal to the number found in the above said function.
 ### Flag:
  `v1t{pr1m35}`
  
@@ -247,4 +265,7 @@ v1t{fr_gng_use_AI_t0_s0lv3_ctf}
 
 ## Duck Robots
 - Used robots.txt
+
+## Feedback and ShoutOut
+- Simple challs
  
