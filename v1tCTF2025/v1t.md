@@ -89,6 +89,7 @@
 
   ## Amongus University
    - Convert name of the university in English and the first letter of the words form the flag.
+   - University of Information Technology was the translated name ( UIT )
 ![alt text](images/amongus.png)
   ### Flag:
  `v1t{UIT}`
