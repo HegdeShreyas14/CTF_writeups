@@ -244,9 +244,11 @@ v1t{fr_gng_use_AI_t0_s0lv3_ctf}
 ### Flag:
 `v1t{fr_gng_use_AI_t0_s0lv3_ctf}`
 ## Blank
-- Altered the contrasts in the given image to obtain the flag after using steghide
-![alt text](images/blank.jpeg)
+- Altered the contrasts in the given image to obtain the flag after using online steghide and inspecting bitplane
+![alt text](images/blankeye.png)
 
+### Flag:
+`v1t{wh1t3_3y3s}`
 
 # pwn
 
