@@ -48,9 +48,7 @@
 
  ### Flag:
  `trustctf{y0u_d0nt_3v3n_n33d_2_b_sm4rt_4_th15}`
-
-## Secure API 
-###
+   
 
 
 ## Breached
