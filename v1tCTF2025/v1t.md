@@ -89,6 +89,7 @@
 
   ## Amongus University
    - Convert name of the university in English and the first letter of the words form the flag.
+   - University of Information Technology was the translated name ( UIT )
 ![alt text](images/amongus.png)
   ### Flag:
  `v1t{UIT}`
@@ -244,8 +245,15 @@ v1t{fr_gng_use_AI_t0_s0lv3_ctf}
 ### Flag:
 `v1t{fr_gng_use_AI_t0_s0lv3_ctf}`
 ## Blank
+<<<<<<< HEAD
 - Altered the contrasts in the given image to obtain the flag after using online steghide and inspecting bitplane
 ![alt text](images/blankeye.png)
+=======
+- Altered the contrasts in the given image to obtain the flag after using online steghide tool
+![alt text](images/blankeye.png)
+
+`v1t{wh1t3_3y3s}`
+>>>>>>> 4cd3695eacf3d11474a7e7e123b0b63372927722
 
 ### Flag:
 `v1t{wh1t3_3y3s}`
