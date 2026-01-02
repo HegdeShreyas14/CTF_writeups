@@ -116,7 +116,7 @@ The php website allows us to upload files which have .txt extension and from the
 ![alt text](img1.png)
 - I uploaded a file "--reference=dummy.txt" and on checking the website link for the file , it showed the file contents instead of giving me the not found error so that's a good sign
 
--This should mean that on uploading dummy.txt, we should have the permissions to view the files flag.txt, dummy.txt and the --ref file as well
+- This should mean that on uploading dummy.txt, we should have the permissions to view the files flag.txt, dummy.txt and the --ref file as well
 
 - On going to /uploads/flag.txt we should be able to view the flag 
 
