@@ -47,3 +47,5 @@ c = 7715171399616834437088035208293480112252495610725644523132605304997656808741
 
 From the given python code it is evident that both p and q in some form are derived from the randomly generated prime so there is one unknown instead of 2.
 - Leaking the prime would end the challenge
+- The man functions just makes sure that every alternate bit contains the prime number bits 
+- The variable q contains 1
