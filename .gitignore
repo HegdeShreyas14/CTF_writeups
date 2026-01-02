@@ -1,1 +1,16 @@
 *.dmp
+# installers / large binaries
+Miniconda3-latest-Linux-x86_64.sh
+Miniconda*
+Anaconda*
+
+# binaries
+*.sh
+*.bin
+
+# python
+venv/
+__pycache__/
+
+# sage
+*.sage.py
