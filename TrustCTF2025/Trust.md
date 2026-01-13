@@ -84,7 +84,7 @@ From the premise of the question it is clear that the FLAG_TOKEN is generated fr
 So now we have to find the email which was part of the data breach.  
 - There are 499 emails given, we gmake a script which  bruteforces all the emails at the API endpoint given, when the **pwned** value turns true we know that it was involved in the breach and is the admin's email.
 
-The script used was 
+
 ```py
 
 
